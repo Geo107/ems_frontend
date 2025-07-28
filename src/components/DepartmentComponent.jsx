@@ -42,7 +42,7 @@ const DepartmentComponent = () => {
                     console.error("Error updating department:", error);
                 })  
             }else{
-                createDepartment(employee).then((response) => {
+                createDepartment(department).then((response) => {
                 console.log(response.data);
                 navigator('/departments');
                 }).catch(error => {

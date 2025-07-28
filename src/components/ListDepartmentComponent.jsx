@@ -40,7 +40,7 @@ const ListDepartmentComponent = () => {
   return (
     <div className='container'>
         <h2 className="text-center">List of Departments</h2>
-        <button className='btn btn-primary' onClick={addDepartment}>Add Department</button>
+        <button className='btn btn-primary mb-3' onClick={addDepartment}>Add Department</button>
         <table className='table table-striped table-bordered'>
             <thead>
                 <tr>

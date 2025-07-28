@@ -20,6 +20,8 @@ const EmployeeComponent = () => {
         })
     },[])
 
+    
+
 
    const [errors,setErrors] = useState({
          firstName: '',

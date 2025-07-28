@@ -1,5 +1,4 @@
-import React from 'react'
-import { Navlink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const  HeaderComponent = () => {
   return (
@@ -10,10 +9,10 @@ const  HeaderComponent = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Navlink className='nav-link' to='/employees'>Employees</Navlink>
+                            <NavLink className='nav-link' to='/employees'>Employees</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Navlink className='nav-link' to='/departments'>Departments</Navlink>
+                            <NavLink className='nav-link' to='/departments'>Departments</NavLink>
                         </li>
                     </ul>
                 </div>
